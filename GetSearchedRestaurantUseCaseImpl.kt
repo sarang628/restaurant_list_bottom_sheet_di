@@ -39,6 +39,7 @@ class GetSearchedRestaurantUseCaseImpl {
 
     val RestaurantWithFiveImages.restaurantItemUiState: RestaurantItemUiState
         get() = RestaurantItemUiState(
+            restaurantId = this.restaurant.restaurantId,
             restaurantName = this.restaurant.restaurantName,
             rating = this.restaurant.rating,
             ratingCount = 100,
