@@ -5,7 +5,7 @@ import com.sarang.torang.GetSearchedRestaurantUseCase
 import com.sarang.torang.RestaurantItemUiState
 import com.sarang.torang.SelectRestaurantUseCase
 import com.sarang.torang.data.RestaurantWithFiveImages
-import com.sarang.torang.di.repository.repository.impl.FindRepositoryImpl
+import com.sarang.torang.di.repository.FindRepositoryImpl
 import com.sarang.torang.repository.FindRepository
 import com.sarang.torang.repository.MapRepository
 import dagger.Module
